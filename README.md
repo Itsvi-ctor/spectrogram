@@ -1,5 +1,11 @@
 # Converting audios to spectrograms
 
+- Install the following packages 
+```py
+pip install librosa --user
+pip install matplotlib --user
+```
+
 ```py
 import librosa
 import librosa.display

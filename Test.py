@@ -5,7 +5,9 @@ import numpy as np
 import os
 
 directory = "./poultry_dataset/chicken_dataset/Noise/"
-save_directory = "C:/Users/user/Desktop/Spectrogram_Data/Noise/"
+# save_directory = "C:/Users/user/Desktop/Spectrogram_Data/Noise/"
+save_directory = "C:/Users/Jimi2/OneDrive/Desktop/Test output/"
+# C:\Users\Jimi2\OneDrive\Desktop\Test output
 
 # C:\Users\user\Desktop\Spectrogram_Data\Healthy
 def load_audio(file_path, sample_rate=44100):
