@@ -4,7 +4,10 @@
 ```py
 pip install librosa --user
 pip install matplotlib --user
+pip install setuptool
+pip install --upgrade --force-reinstall librosa
 ```
+- Mak sure to add python to your path
 
 ```py
 import librosa
