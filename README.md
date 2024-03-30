@@ -1,4 +1,4 @@
-# Converting audios to spectrograms
+# Converting audios to spectrograms and other preprocessing techniques
 
 - Install the following packages 
 ```py
@@ -78,3 +78,11 @@ if __name__ == "__main__":
 
 - Explanation: This block checks if the script is being run as the main program. If so, it loads the audio and visualizes it using the defined functions.
   This script essentially loads an audio file, calculates its spectrogram, and visualizes the spectrogram in a logarithmic scale over time.
+
+### Preporcessing files
+- canny_preprocessing
+- grayscale_preprocessing
+- noise_reduction_preprocessing
+- thresholding_preprocessing 
+
+- The files above take the converted audios from the audio_to_spectrogram file and preprocesses them
